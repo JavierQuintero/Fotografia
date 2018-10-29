@@ -68,9 +68,9 @@ body{
         text-decoration: underline;
     }
 
-        /*====================================================*/
-            /*=================Articulo====================*/
-        /*====================================================*/
+                    /*====================================================*/
+                        /*=================Articulo====================*/
+                    /*====================================================*/
 
 
 #contenedor{
@@ -93,6 +93,7 @@ body{
 .princ{
     margin-top: 95px;
 }
+
 
         .Imagen_secundaria {
             justify-content: space-between;
@@ -128,4 +129,40 @@ body{
             text-align: center;
         }
 
+
+
+                    
+                    /*====================================================*/
+                        /*==================Footer=====================*/
+                    /*====================================================*/
+                    
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #C6d5c5;
+}
+
+section[class^="S"] {
+    width: 25%;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0px auto;
+}
+
+h2 {
+    margin-top: .7em;
+    margin-bottom: .6em;
+}
+
+p{
+    padding: 8px;
+}
+
+.copy {
+    font-size: -webkit-xxx-large;
+    font-weight: 600;
+}
 
