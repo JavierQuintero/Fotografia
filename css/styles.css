@@ -94,40 +94,38 @@ body{
     margin-top: 95px;
 }
 
-<<<<<<< HEAD
-=======
-.Imagen_secundaria {
-    justify-content: space-between;
-    display: flex;
-    width: 75%;
-    margin: 0 auto;
-}
-.secun{
-    width: 810px;
-    margin: 25px 30px 5px 30px;
+        .Imagen_secundaria {
+            justify-content: space-between;
+            display: flex;
+            width: 75%;
+            margin: 0 auto;
+        }
+        .secun{
+            width: 810px;
+            margin: 25px 30px 5px 30px;
+        
+        }
+        
+        div #imagen1, div #imagen2{
+            width: 100%;
+            transition: all .5s ease-out;
+        }
+        
+        #imagen1:hover{
+            -webkit-transform: rotate(10deg);
+                    transform: rotate(10deg);
+            box-shadow: 2px 2px  #82c3a6; 
+            
+        }
+        
+        #imagen2:hover{
+            -webkit-transform: translate(5px, -20px);
+                    transform: translate(5px, -20px);
+            box-shadow: 2px 2px  #82c3a6;       
+        }
+        
+        .imagen1, .imagen2{
+            text-align: center;
+        }
 
-}
-
-div #imagen1, div #imagen2{
-    width: 100%;
-    transition: all .5s ease-out;
-}
-
-#imagen1:hover{
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
-    box-shadow: 2px 2px  #82c3a6; 
-    
-}
-
-#imagen2:hover{
-    -webkit-transform: translate(5px, -20px);
-            transform: translate(5px, -20px);
-    box-shadow: 2px 2px  #82c3a6;       
-}
-
-.imagen1, .imagen2{
-    text-align: center;
-}
->>>>>>> Imagen_secundaria
 
