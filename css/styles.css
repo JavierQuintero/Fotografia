@@ -80,18 +80,23 @@ body{
 
 
 .Imagen_principal {
-    width: 60%;
+    background-color: #82c3a6;
+    width: 100%;
     margin: auto;
-
 }
 
 .imagen-princ {
+    margin: 0px;
     width: 100%;
     height: 100%;
+    text-align: center;
+    align-items: center;
 }
 
 .princ{
     margin-top: 95px;
+    margin-bottom: 20px;
+  
 }
 
 
@@ -146,6 +151,13 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     transition: all .8s ease-out;
+    -webkit-perspective: 100px;
+            perspective: 100px; 
+}
+
+.fotos img{
+    -webkit-transform: rotate3d(25deg 25deg 12deg);
+            transform: rotate3d(25deg 25deg 12deg);
 }
 
         /*==========Filtros===========*/
@@ -207,3 +219,74 @@ p{
     font-weight: 600;
 }
 
+/*====================================================*/
+    /*==================800=======================*/
+    /*==================800=======================*/
+/*====================================================*/
+
+@media screen and (max-width: 720px){
+
+        header{
+           z-index: 100;
+        }
+
+        #header{
+            flex-direction: column;
+        }
+
+        .princ {
+            margin-top: 19.3%;
+            width: 100%;
+        }
+
+        .Imagen_principal {
+            width: 96%;
+            margin: 0 auto;
+        }
+
+        .Imagen_secundaria{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .imagen1, .imagen2{
+            width: 100%;
+        }
+
+        #imagen1, #imagen2{
+            width: 50%;
+            margin-bottom: 
+        }
+        .secun{
+            width: 85%;
+            margin: auto auto;
+        }
+
+        .galery-2 {
+            width: 75%;
+            height: auto;
+        }
+}
+
+
+/*====================================================*/
+    /*==================560=======================*/
+/*====================================================*/
+
+@media screen and (max-width: 560px){
+        footer{
+            flex-direction: column;
+        }
+    
+
+    }
+
+/*====================================================*/
+    /*==================520=======================*/
+/*====================================================*/
+
+@media screen and (max-width: 520px){
+    .princ {
+            margin-top: 50.2%;
+        }   
+}
